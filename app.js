@@ -19,6 +19,9 @@ function read(text) {
     else if (text == "what's your profession") {
         speech.text = "I am a web developer";
     }
+    else if(text == "how long"){
+        speech.text = "since 2 years";
+    }
     else if (text == "madan") {
         speech.text = "tui madan"
     }
