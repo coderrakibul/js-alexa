@@ -13,14 +13,17 @@ function read(text) {
     if (text == "hello") {
         speech.text = "hello";
     }
-    else if (text == "What's your name") {
-        speech.text = "My name is Rakibul";
+    else if (text == "who are you") {
+        speech.text = "I am Rakibul";
     }
     else if (text == "what's your profession") {
         speech.text = "I am a web developer";
     }
+    else if (text == "madan") {
+        speech.text = "tui madan"
+    }
     else {
-        speech.text = "Please try again";
+        speech.text = "please try again";
     }
 
     document.getElementById("response").innerText = speech.text;
